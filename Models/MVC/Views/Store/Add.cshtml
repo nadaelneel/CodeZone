@@ -1,0 +1,21 @@
+﻿@using Models
+@{
+    Layout = "_Layout";
+}
+@model Store;
+<h1 class="text-center text-primary mb-2">Add Store</h1>
+
+<form asp-controller="Store" asp-action="Add" method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-xs-6 col-md-6 form-group">
+            <input class="form-control" asp-for="Name" placeholder="Name...." required autofocus />
+        </div>
+        <div class="col-xs-6 col-md-6 form-group">
+            <input class="form-control" asp-for="Address" placeholder="Address...." required />
+        </div>
+        <div class="row mt-5">
+            <div class="col-xs-12 col-md-12 form-group">
+                <button class="btn btn-primary pull-right" type="submit">Submit</button>
+            </div>
+        </div>
+</form>

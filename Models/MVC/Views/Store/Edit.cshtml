@@ -1,0 +1,30 @@
+﻿@using Models
+@{
+    Layout = "_Layout";
+    Store store = ViewData["store"] as Store;
+}
+<h1 class="text-center text-primary mb-2">Edit Store</h1>
+
+@model Store;
+
+
+<form asp-controller="Store" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+    <div class="row">
+        <div class="col-12 form-group">
+            <input asp-for="Id" hidden />
+        </div>
+        <div class="col-xs-6 col-md-6 form-group">
+            <input class="form-control" asp-for="Name" value="@store.Name" required autofocus />
+        </div>
+        <div class="col-xs-6 col-md-6 form-group">
+            <input class="form-control" asp-for="Address" value="@store.Address" required />
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-xs-12 col-md-12 form-group">
+            <button class="btn btn-primary pull-right" type="submit">Submit</button>
+        </div>
+    </div>
+
+</form>

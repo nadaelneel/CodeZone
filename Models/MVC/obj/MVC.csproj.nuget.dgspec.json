@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\MVC\\MVC.csproj": {}
+  },
+  "projects": {
+    "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
+        "outputPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\MVC\\MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\MVC\\MVC.csproj",
+        "projectName": "MVC",
+        "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\MVC\\MVC.csproj",
+        "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
+        "outputPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj"
+              },
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\Repository.csproj"
+              },
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "jQuery.Migrate": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
+        "outputPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj"
+              },
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj",
+        "projectName": "ViewModel",
+        "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
+        "outputPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj": {
+                "projectPath": "D:\\iti\\net track\\.net track\\ASP.Net\\codeZone task\\Models\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

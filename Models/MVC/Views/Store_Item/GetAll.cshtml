@@ -1,0 +1,29 @@
+﻿@using ViewModel
+@{
+    Layout = "_Layout";
+    List<OrderViewModel> viewModel = ViewData["Orders"] as List<OrderViewModel>;
+}
+<h1 class="text-center text-capitalize mb-4"> All Orders</h1>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Store Name</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in viewModel)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td class="text-capitalize"> @item.StoreName</td>
+                <td class="text-capitalize">@item.ItemName</td>
+                <td>@item.Stock</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,51 @@
+﻿@using ViewModel
+@{
+    Layout = "_Layout";
+    List<SelectListItem> items = ViewData["Items"] as List<SelectListItem>;
+    List<SelectListItem> stores = ViewData["Stores"] as List<SelectListItem>;
+}
+@model addOrderViewModel
+<h1 class="text-capitalize text-center mb-4">Sell</h1>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <form asp-controller="Store_Item" asp-action="Sell" method="post" enctype="multipart/form-data">
+
+                        <div class="col-md-10 mt-2">
+                            <input class="form-control" type="datetime" placeholder="Date & Time" hidden>
+                        </div>
+                        <div class="col-md-10 mt-2">
+                            <select class="form-control" id="selectedStore" asp-for="StoreId" asp-items="stores">
+                            </select>
+
+                        </div>
+
+                        <div class="col-md-10 mt-2">
+                            <select class="form-control" id="selectedItem" asp-for="ItemId" asp-items="items">
+                            </select>
+
+                        </div>
+                        <div class="col-md-10 mt-2 row">
+                            <div class="col-md-6 mt-2">
+                                <input class="form-control" asp-for="Count" placeholder="Count" required>
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <input class="form-control" id="stock" asp-for="Stock" placeholder="Stock" readonly>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="~/js/getStock.js" asp-append-version="true"></script>
